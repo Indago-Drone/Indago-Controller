@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/ly_home_layout" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/iv_home_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/home_bg" android:scaleType="center" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:layout_alignParentBottom="true">
+        <com.lewei.multiple.view.BrightImageView android:id="@id/iv_home_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:layout_marginRight="10dp" android:src="@drawable/home_help" android:scaleType="centerInside" />
+        <com.lewei.multiple.view.BrightImageView android:id="@id/iv_home_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:src="@drawable/home_setting" android:scaleType="centerInside" />
+    </LinearLayout>
+    <com.lewei.multiple.view.BrightImageView android:id="@id/iv_home_play_lw63" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_marginBottom="15dp" android:src="@drawable/home_enter" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

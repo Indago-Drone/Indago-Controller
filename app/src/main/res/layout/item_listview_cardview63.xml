@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/iv_icon" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:src="@drawable/ic_stub" android:scaleType="centerInside" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="6dp" android:layout_toRightOf="@id/iv_icon">
+        <TextView android:textSize="@dimen/remote_adapter_size" android:textColor="@color/white" android:id="@id/tv_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/remote_adapter_size" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tv_stop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/remote_adapter_size" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tv_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

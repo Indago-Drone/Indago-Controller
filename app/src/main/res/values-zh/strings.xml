@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FY Drone</string>
+    <string name="str_sdcard_not_find">未检测到SD卡。</string>
+    <string name="str_sdcard_formating_progress">SDCard格式化中 :</string>
+    <string name="str_sdcard_push_out">检测到SDCard被拔出。</string>
+    <string name="str_sdcard_push_in">检测到SDCard被插入。</string>
+    <string name="str_device_offline">设备网络离线。</string>
+    <string name="str_playaty_connect_device">请连接设备</string>
+    <string name="str_playaty_take_photo_ok">拍照成功</string>
+    <string name="str_cardvideo63_search_error">查询列表失败，请重试.</string>
+    <string name="tv_Playback_Photos">Photos</string>
+    <string name="tv_Playback_Videos">Videos</string>
+    <string name="tv_Playback_BuiltinSdcard">手机存储</string>
+    <string name="tv_Playback_ExternalSdcard">外置SD卡</string>
+    <string name="str_playback_notfindexcard">未发现存储设备</string>
+    <string name="str_playback_warning">警告</string>
+    <string name="str_playback_deletephoto">删除此图片？</string>
+    <string name="str_playback_deletevideo">删除此视频？</string>
+    <string name="str_playback_confirm">确认</string>
+    <string name="str_playback_cancel">取消</string>
+    <string name="tv_sdcardvideo_title">Remote SDcard</string>
+    <string name="str_imagepager_filename">文件名：</string>
+    <string name="str_imagepager_filepath">文件路径：</string>
+    <string name="str_imagepager_time">时间：</string>
+    <string name="str_imagepager_filesize">文件大小：</string>
+    <string name="str_imagepager_resolution">分辨率：</string>
+    <string name="str_imagepager_filetype">文件类型：</string>
+    <string name="str_lw93main_start_record_fail">开启录像失败</string>
+    <string name="str_lw93main_settime_fail">同步时间失败</string>
+    <string name="str_lw93main_record_not_findcard">开始计划录像，但未找到SD卡</string>
+    <string name="str_lw93main_cancel_recordplan">取消录像计划</string>
+    <string name="str_lw93main_capture_fail">拍照失败</string>
+    <string name="str_lw93main_capture_success">拍照成功：</string>
+    <string name="str_sdcardvideo_tips">提示</string>
+    <string name="str_sdcardvideo_play">播放</string>
+    <string name="str_sdcardvideo_download">下载</string>
+    <string name="str_sdcardvideo_delete">删除</string>
+    <string name="str_sdcardvideo_cancel_download">取消下载</string>
+    <string name="str_sdcardvideo_file_notexist">文件不存在.</string>
+    <string name="str_sdcardvideo_download_ok">下载成功.</string>
+    <string name="str_sdcardvideo_download_fail">下载失败.</string>
+    <string name="tv_Photo_Name">default.jpg</string>
+    <string name="label_Playback_Activity">Album</string>
+</resources>

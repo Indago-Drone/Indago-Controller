@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="23sp" android:textColor="#106000" android:id="@id/txt_Info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="Information:" />
+    <ListView android:id="@id/listview_Popup_Photoinfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="#106000" android:cacheColorHint="#106000" android:layout_below="@id/txt_Info" />
+</RelativeLayout>

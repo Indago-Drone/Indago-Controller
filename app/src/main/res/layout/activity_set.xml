@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:background="#cdcdc1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_set_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:src="@drawable/backing_icon" android:scaleType="centerInside" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18sp" android:padding="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:scaleType="centerInside" android:text="FLIGHT ATTITUDE PARAMETERS" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18sp" android:textColor="#080808" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:scaleType="centerInside" android:text="Parameters auto save" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_set_params_autosave" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:src="@drawable/open_icon" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="#d4d4d4" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="10dp" android:layout_marginRight="20dp" />
+    <RelativeLayout android:id="@id/layout_set_reset_params" android:background="@drawable/set_reset_params_state" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18sp" android:textColor="#080808" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:scaleType="centerInside" android:text="Reset the parameters" android:layout_centerVertical="true" />
+        <ImageView android:paddingTop="3dp" android:paddingBottom="3dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:src="@drawable/open_icon" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18sp" android:padding="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:scaleType="centerInside" android:text="INTERFACE SETTING" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layout_set_hardware" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18sp" android:textColor="#080808" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:scaleType="centerInside" android:text="Hardware decode" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_set_hardware" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:src="@drawable/close_icon" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="#d4d4d4" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="10dp" android:layout_marginRight="20dp" />
+    <RelativeLayout android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_set_righthandmode" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:src="@drawable/close_icon" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="18sp" android:textColor="#080808" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:scaleType="centerInside" android:text="Right hand mode" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="#d4d4d4" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="10dp" android:layout_marginRight="20dp" />
+    <RelativeLayout android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_set_preview_select" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:src="@drawable/close_icon" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="18sp" android:textColor="#080808" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:scaleType="centerInside" android:text="Preview 720P" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

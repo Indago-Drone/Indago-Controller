@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.lewei.multiple.view.ViewPagerFixed android:id="@id/viewpager" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:background="@drawable/actionbar_bg" android:layout_width="match_parent" android:layout_height="48dp" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/iv_ImagePager_Actionbar_Back" android:background="@drawable/imagepager_actionbar_back_bg" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/actionbar_back" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_ImagePager_Actionbar_Photo" android:background="@drawable/imagepager_actionbar_back_bg" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/actionbar_photo" android:layout_toRightOf="@id/iv_ImagePager_Actionbar_Back" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_ImagePager_Actionbar_More" android:background="@drawable/imagepager_actionbar_back_bg" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="10dp" android:src="@drawable/actionbar_more_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="15sp" android:textColor="#106000" android:id="@id/txt_imagecount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0/1" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_Actionbar_Bottom" android:background="@drawable/actionbar_bottom_bg" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="48dp" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/iv_Actionbar_Bottom_Info" android:background="@drawable/imagepager_actionbar_back_bg" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/acitonbar_bottom_info" android:layout_weight="1.0" />
+        <ImageView android:id="@id/iv_Actionbar_Bottom_Delete" android:background="@drawable/imagepager_actionbar_back_bg" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/actionbar_bottom_delete" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

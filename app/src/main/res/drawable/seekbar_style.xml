@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/seekbar_replay_play" android:drawable="@drawable/seekbarbg1" />
+    <item android:id="@id/SecondaryProgress" android:drawable="@drawable/seekbarbg1" />
+    <item android:id="@id/seekbar_replay_play" android:drawable="@drawable/seekbarbg" />
+</layer-list>

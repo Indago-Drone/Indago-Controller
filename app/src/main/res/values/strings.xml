@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FY Drone</string>
+    <string name="str_sdcard_not_find">No Insert SD Card</string>
+    <string name="str_sdcard_formating_progress">SD Card Formatting :</string>
+    <string name="str_sdcard_push_out">SD Card Push Out.</string>
+    <string name="str_sdcard_push_in">SD Card Push In.</string>
+    <string name="str_device_offline">Wifi Device offline.</string>
+    <string name="str_playaty_connect_device">Please connect device.</string>
+    <string name="str_playaty_take_photo_ok">Capture photo success.</string>
+    <string name="str_cardvideo63_search_error">Search remote records error, try again.</string>
+    <string name="tv_Playback_Photos">Photos</string>
+    <string name="tv_Playback_Videos">Videos</string>
+    <string name="tv_Playback_BuiltinSdcard">Built-in SDCard</string>
+    <string name="tv_Playback_ExternalSdcard">External SDCard</string>
+    <string name="str_playback_notfindexcard">Can not find ex sdcard</string>
+    <string name="str_playback_warning">WARNING</string>
+    <string name="str_playback_deletephoto">Delete this photo?</string>
+    <string name="str_playback_deletevideo">Delete this video?</string>
+    <string name="str_playback_confirm">Confirm</string>
+    <string name="str_playback_cancel">Cancel</string>
+    <string name="tv_sdcardvideo_title">Remote SDcard</string>
+    <string name="str_imagepager_filename">File Name:</string>
+    <string name="str_imagepager_filepath">File Path:</string>
+    <string name="str_imagepager_time">Time:</string>
+    <string name="str_imagepager_filesize">File Size:</string>
+    <string name="str_imagepager_resolution">Resolution:</string>
+    <string name="str_imagepager_filetype">File Type:</string>
+    <string name="str_lw93main_start_record_fail">Failed to start record.</string>
+    <string name="str_lw93main_settime_fail">Failed to synchronization time.</string>
+    <string name="str_lw93main_record_not_findcard">"Start record plan, but didn't find the SD card."</string>
+    <string name="str_lw93main_cancel_recordplan">Cancel record plan.</string>
+    <string name="str_lw93main_capture_fail">Capture photo fail.</string>
+    <string name="str_lw93main_capture_success">Capture photo：</string>
+    <string name="str_sdcardvideo_tips">Tips</string>
+    <string name="str_sdcardvideo_play">Play</string>
+    <string name="str_sdcardvideo_download">Download</string>
+    <string name="str_sdcardvideo_delete">Delete</string>
+    <string name="str_sdcardvideo_cancel_download">Cancel download.</string>
+    <string name="str_sdcardvideo_file_notexist">File not exists.</string>
+    <string name="str_sdcardvideo_download_ok">Download success.</string>
+    <string name="str_sdcardvideo_download_fail">Download fail.</string>
+</resources>

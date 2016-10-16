@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/layout_Main" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.lewei.multiple.view.ReplaySurfaceView android:id="@id/replaySurfaceView" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/layout_replay_top_menubar" android:background="@drawable/replay_top_menubar_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_replay_top_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:src="@drawable/backicon" android:scaleType="center" />
+        <TextView android:textSize="16sp" android:textColor="@color/yellow" android:id="@id/txt_replay_top_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Title" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layout_replay_bottom_menubar" android:background="@drawable/time_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/iv_replay_play_state" android:background="@drawable/actionbar_back_bg_state" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:src="@drawable/bjx" android:scaleType="center" android:layout_centerVertical="true" />
+        <TextView android:textSize="13sp" android:id="@id/txt_replay_bottom_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="00:00/00:00" android:layout_centerVertical="true" />
+        <SeekBar android:id="@id/seekbar_replay_play" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="6dp" android:layout_marginRight="10dp" android:max="100" android:progress="0" android:progressDrawable="@drawable/seekbar_style" android:thumb="@drawable/seekbar_thumb" android:layout_toRightOf="@id/txt_replay_bottom_time" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/layout_progressbar" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ProgressBar android:id="@id/iv_Progressbar_Inner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="false" android:indeterminateDrawable="@drawable/main_progressbar_state_inner" />
+        <ProgressBar android:id="@id/iv_Progressbar_Outer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="false" android:indeterminateDrawable="@drawable/main_progressbar_state_outer" />
+    </FrameLayout>
+</RelativeLayout>

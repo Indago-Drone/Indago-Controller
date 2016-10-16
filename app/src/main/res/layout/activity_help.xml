@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/ly_home_layout" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/iv_help_page" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/help_page0" android:scaleType="center" />
+    <ImageView android:id="@id/iv_help_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/backing_icon" android:scaleType="centerInside" />
+    <ImageView android:id="@id/iv_help_page_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/help_page_next" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/iv_help_page_prev" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/help_page_prev" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+</RelativeLayout>

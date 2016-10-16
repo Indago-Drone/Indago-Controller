@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/playlist_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.lewei.multiple.view.BrightImageView android:id="@id/iv_select_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:src="@drawable/backing_icon" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:onClick="onBackPressed" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="40dp" android:paddingRight="40dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.lewei.multiple.view.BrightImageView android:id="@id/iv_select_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/playlist_photo" android:layout_weight="1.0" android:onClick="onPhotoPressed" />
+        <com.lewei.multiple.view.BrightImageView android:id="@id/iv_select_video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/playlist_video" android:layout_weight="1.0" android:onClick="onVideoPressed" />
+        <com.lewei.multiple.view.BrightImageView android:id="@id/iv_select_cardvideo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/playlist_cardvideo" android:layout_weight="1.0" android:onClick="onCardVideoPressed" />
+    </LinearLayout>
+</RelativeLayout>

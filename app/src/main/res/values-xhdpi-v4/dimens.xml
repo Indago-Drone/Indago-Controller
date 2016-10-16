@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="remote_adapter_size">16.0dip</dimen>
+    <dimen name="con_dlg_title">18.0dip</dimen>
+    <dimen name="con_dlg_button">18.0dip</dimen>
+    <dimen name="help_txt_content">18.0dip</dimen>
+    <dimen name="rec_time_txt">14.0dip</dimen>
+</resources>

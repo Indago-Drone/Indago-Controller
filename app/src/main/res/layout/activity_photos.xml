@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/layout_actionbar" android:background="#111111" android:layout_width="match_parent" android:layout_height="36dp">
+        <ImageView android:id="@id/iv_playback_actionbar_back" android:background="@drawable/actionbar_back_bg_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/actionbar_back1" />
+        <ImageView android:id="@id/seprater" android:layout_width="1dp" android:layout_height="20dp" android:src="@color/black" android:layout_toRightOf="@id/iv_playback_actionbar_back" android:layout_centerVertical="true" />
+        <TextView android:textSize="18sp" android:textColor="@color/whitesmoke" android:id="@id/txt_Playback_Actionbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/tv_Playback_Photos" android:layout_toRightOf="@id/seprater" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/iv_playback_actionbar_more" android:background="@drawable/actionbar_back_bg_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/actionbar_more" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <GridView android:gravity="center" android:id="@id/gd_photos" android:padding="10dp" android:layout_width="match_parent" android:layout_height="0dp" android:listSelector="#106000" android:cacheColorHint="#106000" android:horizontalSpacing="10dp" android:verticalSpacing="10dp" android:stretchMode="columnWidth" android:columnWidth="110dp" android:numColumns="auto_fit" android:layout_weight="1.0" />
+</LinearLayout>
